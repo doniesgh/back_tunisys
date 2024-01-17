@@ -1,0 +1,31 @@
+{
+  "name": "tunisys-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "concurrently": "^8.2.1",
+    "cors": "^2.8.5",
+    "cors-anywhere": "^0.4.4",
+    "dotenv": "^16.3.1",
+    "expo-server-sdk": "^3.7.0",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.5.0",
+    "nodemon": "^3.0.1",
+    "passport": "^0.6.0",
+    "passport-jwt": "^4.0.1",
+    "socket.io": "^4.7.2",
+    "validator": "^13.11.0",
+    "ws": "^8.13.0"
+  }
+}
